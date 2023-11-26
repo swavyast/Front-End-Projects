@@ -7,7 +7,7 @@
 }
 
 .g_slide .item {
-	display: none;
+	display: block;
 	position: absolute;
 	left: 0;
 	top: 0;
