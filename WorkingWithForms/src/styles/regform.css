@@ -1,0 +1,103 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+.regform{
+    width: 50%;
+    height: auto;
+    background: rgba(05, 05, 05, 0.8);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+form{
+    margin-left: 300px;
+    margin-top: 100px;
+    padding: 25px;
+}
+.mainform{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+}
+.loginPrompt{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.loginPrompt:hover{
+    color: lime;
+    cursor: default;
+}
+.loginPrompt:hover>a{
+    color: white;
+}
+.loginPrompt a{
+    text-decoration: none;
+    color: lime;
+}
+.loginPrompt a:hover{
+    color: white;
+}
+.loginPrompt a:hover>h3{
+    color: lime;
+}
+.loginLink{
+    margin-left: 20px;
+}
+.formDiv{
+    width: 100%;
+    float: none;
+    margin: 15px;
+    padding: 15px;
+}
+.floater{
+    width: 47%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+input{
+    margin: 3px;
+    padding: 3px;
+}
+.inFields{
+    margin: 5px;
+    padding: 5px;
+}
+.tob{
+    margin-left: 10px;
+}
+#datetime{
+    width: 150px;
+    height: 17px;
+}
+.gender{
+    font-size: 12px;
+    float: left;
+    margin: 2px;
+    padding: 2px;
+}
+#gen{
+    margin-left: 15px;
+}
+#sub{
+    margin-top: 45px;
+    margin-left: 5px;
+    padding: 5px;
+}
+#sub input{
+    width: 100px;
+    border: 1px solid rgba(00, 00, 00, 1);
+    border-radius: 45% 15%;
+    margin: 7px;
+    padding: 7px;
+}
+#sub input:hover{
+    border: 1px solid rgba(67, 214, 23, 1);
+    cursor: pointer;
+}

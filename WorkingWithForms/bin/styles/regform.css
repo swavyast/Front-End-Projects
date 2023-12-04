@@ -1,0 +1,66 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+.regform{
+    width: 50%;
+    height: auto;
+    background: rgba(05, 05, 05, 0.8);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+form{
+    margin-left: 300px;
+    margin-top: 100px;
+    padding: 25px;
+}
+.mainform{
+    display: inline;
+}
+.loginPrompt{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.loginPrompt a{
+    text-decoration: none;
+    color: lime;
+}
+.loginLink{
+    margin-left: 20px;
+}
+.formDiv{
+    width: 100%;
+    float: none;
+    margin: 15px;
+    padding: 15px;
+}
+.floater{
+    width: 250px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+input{
+    margin: 3px;
+    padding: 3px;
+}
+.inFields{
+    margin: 5px;
+    padding: 5px;
+}
+.sub{
+    margin-left: 50px;
+}
+.gender{
+    clear: both;
+    margin-top: -30px;
+}
+.tob{
+    clear: both;
+}

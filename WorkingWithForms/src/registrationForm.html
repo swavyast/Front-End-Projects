@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/regform.css">
+    <title>Register Me</title>
+</head>
+
+<body>
+    <form class="regform" action="/register" method="post">
+        <div class="mainform">
+            <h3 class="loginPrompt">Registered already?<a class="loginLink" href="login.html">Login</a></h3>
+            <div class="formDiv">
+                <span class="floater">
+                    <h5 class="inFields">First Name </h5><input type="text" name="fname" placeholder="First Name"
+                        required>
+                </span>
+                <span class="floater">
+                    <h5 class="inFields">Last Name </h5><input type="text" name="lname" placeholder="Last Name"
+                        required>
+                </span>
+            </div>
+            <div class="formDiv">
+                <span class="floater">
+                    <h5 class="inFields">Email </h5><input type="email" name="email" placeholder="Enter your email"
+                        required>
+                </span>
+                <span class="floater">
+                    <h5 class="inFields">Confirm Email </h5><input type="email" name="email"
+                        placeholder="Confirm your email" required>
+                </span>
+            </div>
+            <div class="formDiv">
+                <span class="floater">
+                    <h5 class="inFields">Password </h5><input type="password" name="password"
+                        placeholder="Enter your password" required>
+                </span>
+                <span class="floater">
+                    <h5 class="inFields">Confirm password </h5><input type="password" name="password"
+                        placeholder="Confirm your password" required>
+                </span>
+            </div>
+            <div class="formDiv">
+                <span class="floater">
+                    <h5 class="inFields">Date of birth</h5> <input id="datetime" type="date" name="dob" min="1900-01-01"
+                        max="2017-12-31" required>
+                </span>
+                <span class="floater"><h5 class="inFields tob">Time of birth</h5><input id="datetime" type="time" name="tob"></span>  
+            </div>
+            <div class="formDiv">
+            <span class="floater">
+                <h5 id="gen">Gender</h5><input class="gender" id="gen" type="radio" name="Gender"><h5 class="gender">Male</h5>
+                <input class="gender" id="gen" type="radio" name="Gender"> <h5 class="gender"> Female</h5>
+                <input class="gender" id="gen" type="radio" name="Gender"> <h5 class="gender">Other</h5>
+        </span>
+    </div>
+<!--         <div class="formDiv">
+        <span class="month">
+            <h5 class="inFields">Month</h5><input id="month" type="month" name="month" max="current" readonly>
+        </span>
+        </div> -->
+    <div class="formDiv">
+    <span class="floater" id="sub">
+        <input type="submit" value="submit">
+    </span>
+    </div>
+    </form>
+</body>
+
+</html>
