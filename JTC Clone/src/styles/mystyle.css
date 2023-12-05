@@ -1,103 +1,215 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video
-{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-.main-container{
+*{
     margin: 0;
     padding: 0;
 }
-.container{
+body{
     width: 100%;
 }
-.head-div{
-    background-image: url('images/header.png');
-    background-repeat: no-repeat;
-    background-size: auto;
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+
+.main-container{
+    width: 100%;
+    height: auto;
+    font-family: 'Poppins';
+    overflow-y: hidden;
 }
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+.bg-property{
+    background-repeat: no-repeat;
+    -o-background-size:100% auto;
+    -webkit-background-size:100% auto;
+    -moz-background-size:100% auto;
+    background-size:100% auto;
+}
+.head-div{
+    background-image: url('../images/header.png');
+    background-position-y: top;
+    max-height: 495px;
+}
+
+.mainMenu{
+  width: 100%;
+  height: 50px;
+  margin-left: 5px;
+  display: inline-block;
+  align-items: center;
+}
+.mainMenuItem{
+    width: max-content;
+    float: left;
+    padding: 15px;
+    margin-top: -5px;
+}
+
+.mainMenuItem :not(.login):not(.supp) {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .mainMenuItem a:not(.login) {
+    width: 100px;
+    height: 25px;
+    padding: 3px;
+    text-align: center;
+  }
+  .mainMenuItem a:hover {
+    color: black;
+    background: white;
+  }
+  .supp {
+    margin-top: -6px;
+    margin-left: 25px;
+    margin-right: 10px;
+  }
+  .login {
+    float: right;
+    clear: none;
+    margin-top: -5px;
+  }
+  .mainMenuItem.login a {
+    width: 120px;
+  }
+  .mainMenuItem.login a:hover {
+    color: black;
+    background: white;
+  }
+
+  .banner {
+    margin-left: 25px;
+    padding: 0;
+    display: inline-block;
+  }
+
+  .ribbon{
+    height: 50px;
+    text-align: center;
+    color: white;
+  }
+
+  .head-ribbon{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(8, 8, 8), rgb(128, 128, 128));
+  }
+  .foot-ribbon{
+    background-image: linear-gradient(rgb(128, 128, 128),rgb(9, 9, 9), rgb(8, 8, 8), rgb(0, 0, 0));
+  }
+.below-banner{
+    height: auto;
+    background-image: url('../images/below-banner.png');
+    background-position-y: center;
+    min-height: 1000px;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    margin: 15px;
+    clear: both;
+  }
+  
+  .box {
+    width: 30%;
+    height: 200px;
+    margin: 1%;
+    background-color: grey;
+    color: white;
+    float: left;
+    text-align: center;
+    viewport-fit: contain;
+  }
+
+.foot-div{
+    background-image: url('../images/footer.png');
+    background-position-y: bottom;
+}
+
+.footer {
+    margin: 5px;
+    padding: 5px;
+    width: 95%;
+    clear: both;
+  }
+  .parentFooter {
+    padding: 2px;
+    margin: 2px;
+    width: 40%;
+    clear: both;
+    display: inline-flex;
+  }
+  .L {
+    clear: both;
+    float: left;
+    width: 5%;
+  }
+  .logo{
+    color: black;
+    font-size: larger;
+  }
+  .footMenu {
+    padding: 4px;
+    margin: 4px;
+    width: 100%;
+    display: inline-block;
+    clear: both;
+  }
+  .one {
+    margin-left: -10px;
+  }
+  .two {
+    margin-left: 10px;
+  }
+  .slogan {
+    padding: 0;
+    float: left;
+    border: 1px solid white;
+    width: 20%;
+    height: 250px;
+    clear: right;
+  }
+  .footerLi {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    display: block;
+    width: 100px;
+    height: 45px;
+  }
+  .footerLi a {
+    margin: 12px;
+    padding: 12px;
+    width: max-content;
+    float: left;
+  }
+  .footerLi a:hover {
+    color: greenyellow;
+    text-decoration: none;
+  }
+  .A {
+    float: right;
+    width: 20%;
+    border: 1px solid white;
+  }
+  .copyright {
+    width: 100%;
+    font-size: larger;
+    float: none;
+  }
