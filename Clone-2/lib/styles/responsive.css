@@ -1,0 +1,330 @@
+@charset "utf-8";
+@media (max-width: 767px) {
+    .cookie-bar {
+        padding: 10px 15px 40px;
+    }
+    .m-5 {
+        margin: 3rem 0 !important;
+    }
+    #customers-testimonials .item {
+        padding: 15px;
+    }
+    .logo {
+        width: 100px;
+        margin-top: 0;
+    }
+    .menu-btn {
+        margin-top: 10px;
+        display: none !important;
+    }
+    .menu-items {
+        display: none !important;
+    }
+    .right_content ul,
+    .details_banner_button {
+        margin: 5px 5px 5px 20px;
+    }
+    .details_banner_button .details_pdf,
+    .details_banner_button .enroll_now {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .details_banner_button .details_pdf a,
+    .details_banner_button .enroll_now a {
+        display: block;
+        text-align: center;
+    }
+    .title {
+        padding: 0 10px;
+    }
+    .title h2 {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .details_boxs {
+        margin-bottom: 20px;
+    }
+    .title h2:after {
+        background: url("../images/title_line_m.png") no-repeat;
+        width: 53px;
+        left: 8px;
+        bottom: -20px;
+    }
+    .accordion {
+        margin-bottom: 40px;
+    }
+    .offset-1 {
+        margin-left: 0 !important;
+    }
+    .top_header ul li {
+        margin-right: 5px;
+    }
+    .top_header {
+        padding: 3px 0;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+    #ticker .title {
+        padding-left: 0;
+    }
+    .ajc_box_holder {
+        margin-bottom: 20px;
+    }
+    .flip-box {
+        margin-bottom: 20px;
+    }
+    .banner_area h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 200%;
+        margin-top: 42px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+    .overview {
+        background: #fff;
+    }
+    .overview h5 {
+        margin-bottom: 20px;
+    }
+    .courses .c_icon {
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+    .text_wrap {
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+    .mt-5,
+    .my-5 {
+        margin-top: 0 !important;
+    }
+    .videos_sec iframe {
+        margin-bottom: 40px;
+    }
+    .videos_sec h3 {
+        text-align: center;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .sns-btn {
+        height: 90px;
+    }
+    .mobile_menu {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 99;
+        border-radius: 10px 10px 0 0;
+        box-shadow: 0 0 3px 2px #9e9e9e;
+    }
+    .mobile_menu ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .mobile_menu ul li {
+        padding: 7px;
+        margin: 10px;
+    }
+    .mobile_banner {
+        display: block;
+        overflow: hidden;
+    }
+    .mobile_banner .owl-carousel {
+        display: block;
+        overflow: hidden;
+    }
+    .banner_area,
+    #ticker,
+    .ourTeam,
+    hr,
+    .footer-section,
+    .top_courses,
+    .comp_jtc,
+    .aboutHolder img {
+        display: none !important;
+    }
+    .gb-waw {
+        position: fixed !important;
+        top: 40px !important;
+        right: 10px !important;
+        z-index: 9999 !important;
+    }
+    .gb-waw iframe {
+        position: fixed !important;
+        top: 30px !important;
+        right: 10px !important;
+        z-index: 9999 !important;
+    }
+    .gb-waw iframe .bcon-container button {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .overview {
+        margin-top: 0;
+    }
+    .stats .counting {
+        display: block;
+        width: auto;
+    }
+    .stats {
+        text-align: center;
+        color: #333;
+    }
+    .stats h5 {
+        color: #333;
+    }
+    .sns-btn__icon {
+        font-size: 50px;
+    }
+    .sticky {
+        top: 30px;
+    }
+    .mobile-footer {
+        display: block;
+        background: #333;
+        padding: 10px 0 90px;
+    }
+    .single-cta i {
+        font-size: 14px;
+        float: left;
+        display: inline-block;
+        color: #fff;
+    }
+    .cta-text span {
+        color: #fff;
+        font-size: 13px;
+    }
+    .cta-text {
+        float: left;
+    }
+    .mobile_course {
+        display: block;
+        margin-top: 20px;
+    }
+    .mobile_company {
+        display: block;
+        margin-top: 40px;
+        background:url("../images/bg_counter.png") no-repeat;
+    }
+    .mobile_company .owl-carousel .owl-item img {
+        border: 1px solid #035282;
+        border-radius: 10px 0;
+        padding: 10px;
+    }
+    .videos_sec iframe {
+        height: 170px !important;
+    }
+    .mobile_whatsApp {
+        background: #035282;
+        padding: 11px 13px;
+        border-radius: 50%;
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+    .mobile_whatsApp i {
+        color: #fff;
+        font-size: 25px;
+    }
+    .getIntouchHolder {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background: #ccc;
+        z-index: 99;
+        display: none;
+        overflow: hidden;
+    }
+    .getIntouch {
+        margin-top: 120px;
+        position: relative;
+    }
+    .getIntouch ul li a {
+        color: #fff;
+        font-weight: 700;
+        display: block;
+        margin: 10px;
+        padding: 5px 20px;
+        background: linear-gradient(to right, #8041f2, #3095ed);
+        border-radius: 8px;
+        width: 50%;
+    }
+    .getIntouch ul li a:hover {
+        border-radius: 30px;
+    }
+    #button_jtc {
+        background-color: #035282;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border-radius: 4px;
+        position: fixed;
+        bottom: 90px;
+        right: 30px;
+        animation: jumpInfinite 1.5s infinite;
+        z-index: 999;
+    }
+    #button_jtc:after {
+        content: "\f077";
+        font-family: FontAwesome;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1em;
+        line-height: 40px;
+        color: #fff;
+    }
+    #button_jtc:hover {
+        cursor: pointer;
+        background-color: #333;
+    }
+    #button_jtc:active {
+        background-color: #555;
+    }
+}
+@keyframes jumpInfinite {
+    0% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: 20px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 676px) {
+    .nb-form form {
+        padding-top: 15px;
+    }
+    .nb-form {
+        right: 50%;
+        bottom: -385px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .output {
+        position: static;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .stats {
+        font-size: 16px;
+    }
+    .modal{
+        top:50px !important;
+    }
+}

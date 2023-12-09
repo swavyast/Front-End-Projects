@@ -28,3 +28,58 @@
 @import "carousel";
 @import "spinners";
 @import "offcanvas";
+
+#ticker {
+    overflow: auto;
+    height: 30px;
+    vertical-align: middle;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+#ticker ul {
+    display: block;
+    padding: 0;
+    line-height: 30px;
+    vertical-align: middle;
+    margin: 0;
+    list-style: none;
+    white-space: nowrap;
+    animation: scroll 40s linear infinite;
+    position: absolute;
+}
+#ticker ul li {
+    display: inline-block;
+    white-space: normal;
+    margin-left: 20px;
+    color: #fff;
+}
+#ticker .title {
+    background-color: #035282;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    font-weight: 700;
+    top: 0;
+    display: block;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 10;
+}
+@keyframes scroll {
+    fromfrom  {
+    transform:  translate(0%);
+}
+ to  {
+    transform:  translate(-600%, 0);
+}
+}
+#ticker {
+    margin: auto;
+}
+#ticker ul {
+    width: 100%}
