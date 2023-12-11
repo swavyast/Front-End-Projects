@@ -1,0 +1,178 @@
+@import url("https: //fonts.googleapis.com/css?family=Ubuntu:300, 400, 400i, 500, 700");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 24px;
+    background: #fff;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.top-header {
+    background: #035282;
+    padding: 3px 20px;
+}
+
+.top-header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.top-header ul li a {
+    color: #fff;
+}
+
+.navbar ul{
+    width: 100%;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar ul li a{
+    color: rgb(39, 39, 39);
+    padding: 5px;
+}
+
+.logo img{
+    width: 200px;
+    padding: 10px;
+}
+
+.navbar ul li a:hover{
+    background: black;
+    color: white;
+}
+
+.container-fluid{
+
+}
+
+.ticker{
+
+}
+
+.ticker ul{
+    animation: scroll linear infinite;
+}
+
+.title{
+
+}
+
+.top-cont{
+
+}
+
+.sidebar{
+    background: rgba(0, 6, 56, 0.8);
+    width: 60%;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.item-title{
+    width: 100%;
+    background: #035282;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.sidebar-menu{
+
+}
+
+.group li{
+    background: none;
+}
+
+.group li:hover{
+    background: rgb(184, 183, 183);
+}
+
+.group li:hover>a{
+    color: black;
+    font-weight: 700;
+}
+
+.group li a{
+    color: rgb(175, 174, 174);
+}
+
+.grid-row{
+    margin-right: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.newsletter-design{
+    width: 25%;
+    border-radius: 50px;
+}
+
+.first-col{
+    margin-left: -15%;
+}
+
+.first-col-1{
+    margin-left: -18%;
+}
+
+.first-col-2{
+    margin-left: -21%;
+}
+
+.first-col-3{
+    margin-left: -24%;
+}
+
+.card-body ul li{
+    font-size: x-small;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 60px;
+    line-height: 10px;
+    background: black;
+    border: #fff;
+}
