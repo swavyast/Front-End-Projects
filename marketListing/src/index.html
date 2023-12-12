@@ -12,26 +12,53 @@
 </head>
 
 <body class="" style="overflow: visible;">
+<header class="headbar"></header>
+    <!--=====================================Carousel Script===============================-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!--=====================================Carousel Script===============================-->
 
     <!--==============================Header Begins==============================-->
     <header>
-        <div class="row clearfix">
-            <div class="col logo floatleft">
-                <img src="../lib/images/logo.svg" alt="logo" title="marketListing" width="100" height="100">
-            </div>
-            <div class="col menu">
-                <ul>
-                    <li><a class="hlink"><i class="fa-solid fa-house-user icon"></i>Home</a></li>
-                    <li><a class="hlink"><i class="fa-solid fa-people-carry-box icon"></i>Products</a></li>
-                    <li><a class="hlink"><i class="fa-solid fa-handshake-simple icon"></i>Services</a></li>
-                    <li><a class="hlink"><i class="fa-regular fa-address-book icon"></i>Contacts</a></li>
-                    <li><a class="hlink"><i class="fa-solid fa-building-columns icon"></i>About</a></li>
-                </ul>
-            </div>
-            <div class="col registerlogin floatright">
-                <a href="/login"><i class="fa-regular fa-user icon"></i>Register/Login</a>
-            </div>
+        <div class="container ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class=" clearfix">
+                        <div class="col logo floatleft">
+                            <a href="index.html"><img src="../lib/images/logo.svg" alt="logo" title="marketListing"
+                                    width="100" height="100"></a>
+                        </div>
+                        <div class="strip clearfix">
+                            <div class="col menu floatleft">
+                                <ul>
+                                    <li><a class="hlink" href=""><i class="fa-solid fa-house-user icon"></i>Home</a>
+                                    </li>
+                                    <li><a class="hlink" href=""><i
+                                                class="fa-solid fa-people-carry-box icon"></i>Products</a></li>
+                                    <li><a class="hlink" href=""><i
+                                                class="fa-solid fa-handshake-simple icon"></i>Services</a></li>
+                                    <li><a class="hlink" href=""><i
+                                                class="fa-solid fa-address-book icon"></i>Contacts</a>
+                                    </li>
+                                    <li><a class="hlink" href=""><i
+                                                class="fa-solid fa-building-columns icon"></i>About</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col registerlogin floatright">
+                                <ul>
+                                    <li><a class="hlink" href="/login"><i
+                                                class="fa-solid fa-user-large icon"></i>Register/Login</a></li>
+                                </ul>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <!--==============================Header Ends==============================-->
@@ -39,13 +66,480 @@
     <!------------------------------------
                                             X   ----------------------------------------->
 
-    <!--============================== Footer Begins==============================-->
-    <footer>
+
+    <!--==============================Carousal Begins==============================-->
+
+    <div class="carousel-container">
         <div class="container">
 
+            <div class="container-fluid">
+
+                <div id="mycar" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"><img src="../lib/images/banner-1.jpg" class="d-block w-100"
+                                data-bs-interval="1000" alt="x"></div>
+                        <div class="carousel-item"><img src="../lib/images/banner-2.jpg" alt="y" class="d-block w-100"
+                                data-bs-interval="100">
+                        </div>
+                        <div class="carousel-item"><img src="../lib/images/banner-3.jpg" alt="z" class="d-block w-100"
+                                data-bs-interval="100">
+                        </div>
+                        <div class="carousel-item"><img class="d-block w-100" src="../lib/images/banner-1.jpg" alt="a"
+                                data-bs-interval="1000">
+                        </div>
+                        <div class="carousel-item"><img class="d-block w-100" src="../lib/images/banner-2.jpg" alt="b"
+                                data-bs-interval="1000">
+                        </div>
+                        <div class="carousel-item"><img class="d-block w-100" src="../lib/images/banner-3.jpg" alt="c"
+                                data-bs-interval="1000">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#mycar" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#mycar" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- <header class="detach-content">
+            <span><br><br></span>
+        </header> -->
+
+
+
+    <!--==============================Carousal Ends==============================-->
+
+
+
+
+
+    <!------------------------------------
+                                            X   ----------------------------------------->
+
+    <div class="content-container">
+        <div class="container">
+            <div class="container-fluid">
+                <!--===================================================================== Content Row One =====================================================================-->
+                <div class="centered">
+                    <div class="clearfix">
+                        <p class="grid-row-heading floatleft">Popular Courses</p>
+                        <hr class="floatright seperator" width="90%">
+                    </div>
+                    <div class="row grid-row shift ">
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===================================================================== Content Row Two =====================================================================-->
+                    <div class="clearfix">
+                        <p class="grid-row-heading floatleft">Development Courses</p>
+                        <hr class="floatright seperator" width="90%">
+                    </div>
+                    <div class="row grid-row shift">
+                        <div class="col newsletter-design first-col-1">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===================================================================== Content Row Three =====================================================================-->
+
+                    <div class="clearfix">
+                        <p class="grid-row-heading floatleft">Design Courses</p>
+                        <hr class="floatright seperator" width="90%">
+                    </div>
+                    <div class="row grid-row shift">
+                        <div class="col newsletter-design first-col-2">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===================================================================== Content Row Four =====================================================================-->
+                    <div class="clearfix">
+                        <p class="grid-row-heading floatleft">Development Courses</p>
+                        <hr class="floatright seperator" width="90%">
+                    </div>
+                    <div class="row grid-row shift">
+                        <div class="col newsletter-design first-col-3">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col newsletter-design">
+                            <div class="card">
+                                <img src="../lib/images/chimpmail.png" alt="demo_bg"
+                                    style="margin-top: 15px; align-self: center;" width="150px" height="100px">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Card description can be given here.</p>
+                                    <ul class="clearfix">
+                                        <li class="floatleft">5 Hours</li>
+                                        <li class="floatright">12 Sessions</li>
+                                    </ul>
+                                    <a class="btn btn-primary">Action</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--============================== Footer Begins==============================-->
+    <footer class="footer">
+
+
+        <div class="container">
+            <div class="container-fluid">
+                <hr class="seperator sepbg">
+                <!--===========row one=================-->
+                <div class="row foot-row-one">
+                    <div class="col-md-4">
+                        <div class="socials insta-social">
+                            <a href="https://instagram.com/swavyast"><i
+                                    class="fa-brands fa-instagram icon"></i>Instagram</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="socials github">
+                            <a href="https://github.com/swavyast"><i class="fa-brands fa-github icon"></i>GitHub</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="socials linkedin">
+                            <a href="https://in.linkedin.com/in/kgzpgzb"><i
+                                    class="fa-brands fa-linkedin icon"></i>LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="whiteseperator">
+                <!--===========row two=================-->
+                <div class="row foot-row-two clearfix">
+                    <div class="col-md-4 floatleft">
+                        <div class="author floatleft"><img src="../lib/images/dpwbg.png" width="250" height="200"></div>
+                    </div>
+                    <div class="col-md-8 floatright">
+                        <div class="col-md-4 floatleft">
+                            <p class="aboutauthor">I'll share my professional information with you here. Sometimes you
+                                may find
+                                idioms and phrases also or may be some popular quote that is somehow related to any
+                                concurrent event.
+                            </p>
+                        </div>
+                        <div class="col-md-4 floatright">
+                            <p class="quoteoftheday">I'll share my professional information with you here. Sometimes you
+                                may find
+                                idioms and phrases also or may be some popular quote that is somehow related to any
+                                concurrent event.
+                            </p>
+                        </div>
+                        <hr class="whiteseperator" width="90%">
+                    </div>
+                </div>
+                <!--===========row three=================-->
+                <!-- <p class="dashed-seperator"><img src="../lib/images/line.png"></p> -->
+                <div class="row foot-row-three">
+                    <div class="col-md-4">
+                        <ul class="floatleft">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                        </ul>
+                        <!-- <ul class="f">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                        </ul> -->
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="floatleft">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                        </ul>
+                        <!-- <ul class="f">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                        </ul> -->
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="floatleft">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                        </ul>
+                        <ul class="floatright">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
     </footer>
+<div class="copyright">
+    <div class="container">
+        <div class="container-fluid">
+            <div class="clearfix">
+                <div class="row">
+                <div class="col-md-8"><h6>&copy;marketListing</h6></div>
+                <div class="col-md-4"><h6>Visitor Count</h6></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--============================== Footer Ends ==============================-->
+
+    <!-- <script>
+        const myCarouselElement = document.querySelector('#myCarousel')
+
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+  interval: 2000,
+  touch: false
+})
+    </script> -->
 </body>
 
 </html>

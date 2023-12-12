@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body{
+
+}
+
 ul{
     list-style: outside none none;
     margin: 0;
@@ -13,6 +17,15 @@ ul{
 
 a{
     text-decoration: none;
+}
+header{
+    background: rgba(0, 0, 0, 0.9);
+}
+.carousel-container{
+    background-image: linear-gradient(rgba(17, 130, 206, 1), rgba(113, 177, 219, 0.8));
+}
+.content-container{
+    background-image: linear-gradient(rgba(113, 177, 219, 0.8), rgba(54, 54, 54, 0.8));
 }
 
 .floatleft{
@@ -23,11 +36,174 @@ a{
     float: right;
 }
 
+.headbar{
+    min-height: 40px;
+}
+.logo{
+ background: none;   
+}
 .menu{
-    float: none;
+    margin-top: 16px;
+}
+
+.menu ul{
+    
+}
+
+.menu ul li{
+    margin: 15px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: rgb(255, 255, 255);
+}
+
+.menu ul li a:hover, .menu ul li a:hover>i{
+    color: rgba(47, 38, 172, 0.9);
 }
 
 .icon{
     margin: 2px;
     padding: 2px;
+    color: rgb(255, 255, 255);
+}
+
+.registerlogin{
+    margin-top: 45px;
+    margin-right: 20px;
+}
+
+.registerlogin a{
+    color: rgb(255, 255, 255);
+}
+.registerlogin a:hover, .registerlogin a:hover>i{
+    color: rgba(47, 38, 172, 0.9);
+}
+
+.strip{
+    margin: 0,5px, 0, 5px ;
+    padding: 0,5px, 0, 5px ;
+}
+
+
+.grid-row{
+    margin-right: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.shift, .grid-row-heading{
+    margin-left: -10%;
+}
+
+.seperator{
+    display: block;
+    margin-top: 0.7em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: 1em;
+    border-style: inset;
+    /* border-width: 2px; */
+    border: 1px solid #000;
+}
+
+.whiteseperator{
+    color: white;    
+    min-height: 2px;
+}
+
+.dashedseperator img{
+    background-image: url(../images/line.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    rotate: 30%;
+    background-color: black;
+}
+
+.detach-content{
+    margin: 0;
+    padding: 0;
+}
+
+.centered{
+margin-left: 100px;
+}
+
+.underscore{
+    margin-left: 50px;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.newsletter-design{
+    width: 25%;
+    border-radius: 50px;
+}
+
+.card-body ul li{
+    font-size: x-small;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 70px;
+    line-height: 15px;
+    background: black;
+    border: #fff;
+}
+.btn a{
+    margin: 4px;
+    padding: 4px;
+}
+
+.card-body a:hover{
+    background: rgba(199, 198, 198, 0.9);
+    color: rgb(0, 0, 0);
+}
+
+.footer, .sepbg{
+    margin-top: -10px;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.9);
+    /* background-image: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.8)); */
+    direction: ltr;
+    background-size: cover;
+}
+
+.socials{
+    margin: 15px;
+    padding: 15px;
+}
+
+.socials a{
+    color: white;
+}
+
+.aboutauthor, .quoteoftheday{
+    color: white;
+}
+
+.foot-row-three ul li{
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    line-height: 4px;
+}
+
+.foot-row-three ul li a{
+    color: white;
+}
+
+.copyright, .headbar{
+    background:  rgb(44, 33, 189);
+}
+
+.copyright h6{
+    color: white;
 }
