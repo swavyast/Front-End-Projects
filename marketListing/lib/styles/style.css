@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body{
@@ -18,10 +19,15 @@ ul{
 a{
     text-decoration: none;
 }
+
+hr{
+    color: white;
+}
+
 header{
     background: rgba(0, 0, 0, 0.9);
 }
-.carousel-container{
+.carousel-container, .popc{
     background-image: linear-gradient(rgba(17, 130, 206, 1), rgba(113, 177, 219, 0.8));
 }
 .content-container{
@@ -37,7 +43,7 @@ header{
 }
 
 .headbar{
-    min-height: 40px;
+    min-height: 10px;
 }
 .logo{
  background: none;   
@@ -47,12 +53,12 @@ header{
 }
 
 .menu ul{
-    
+    /* max-height: 25px; */
 }
 
 .menu ul li{
-    margin: 15px;
-    padding: 15px;
+    margin: 10px;
+    padding: 10px;
     display: inline-block;
 }
 
@@ -70,65 +76,53 @@ header{
     color: rgb(255, 255, 255);
 }
 
-.registerlogin{
-    margin-top: 45px;
-    margin-right: 20px;
+.hlink h5{
+    margin: 2px;
+    padding: 2px;
 }
 
-.registerlogin a{
-    color: rgb(255, 255, 255);
+.registerlogin ul{
+    margin-top: -5px;
 }
-.registerlogin a:hover, .registerlogin a:hover>i{
-    color: rgba(47, 38, 172, 0.9);
-}
-
-.strip{
-    margin: 0,5px, 0, 5px ;
-    padding: 0,5px, 0, 5px ;
-}
-
 
 .grid-row{
-    margin-right: 10px;
     margin: 10px;
     padding: 10px;
 }
 
-.shift, .grid-row-heading{
-    margin-left: -10%;
+.grid-row-heading{
+    width: max-content;
+}
+
+#popc{
+    min-height: 80px;
+    
 }
 
 .seperator{
-    display: block;
-    margin-top: 0.7em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: 1em;
-    border-style: inset;
-    /* border-width: 2px; */
-    border: 1px solid #000;
-}
-
-.whiteseperator{
-    color: white;    
     min-height: 2px;
+    background: grey;
+}
+.courseseperator{
+    width: 80%;
+    margin-top: 10px;
+}
+.detach{
+    min-height: 1px;
 }
 
-.dashedseperator img{
-    background-image: url(../images/line.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    rotate: 30%;
-    background-color: black;
+.verticaldetach{
+    max-width: 1px;
+    min-height: 100px;
 }
 
-.detach-content{
-    margin: 0;
-    padding: 0;
+.footd{
+    min-height: 4px;
 }
 
-.centered{
-margin-left: 100px;
+.copyrightsection{
+    min-height: 5px;
+    background: black;
 }
 
 .underscore{
@@ -167,8 +161,7 @@ margin-left: 100px;
     color: rgb(0, 0, 0);
 }
 
-.footer, .sepbg{
-    margin-top: -10px;
+.footer{
     padding: 0;
     background: rgba(0, 0, 0, 0.9);
     /* background-image: linear-gradient(rgba(0, 0, 0,0.4), rgba(0, 0, 0,0.8)); */
@@ -179,10 +172,19 @@ margin-left: 100px;
 .socials{
     margin: 15px;
     padding: 15px;
+    display: inline-flex;
 }
 
 .socials a{
     color: white;
+}
+
+.socials i{
+    font-size: xx-large;
+}
+
+.icontitle{
+    margin-top: 5px;
 }
 
 .aboutauthor, .quoteoftheday{
