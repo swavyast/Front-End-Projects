@@ -27,7 +27,7 @@
 
 					<div class="card-body p-2 mt-4">
 
-						<p class="fs-5 text-center mt-5 text-info"> Registered already?<a class="text-light bg-success clink p-2 m-2" href="user-login.jsp">Login</a></p>
+						<p class="fs-5 text-center mt-5 text-info"> Registered already?<a class="text-light bg-primary clink p-2 m-2" href="user-login.jsp">Login</a></p>
 						<div class="form-group mt-4 p-5">
 							<form id="registration" action="/registration" method="post">
 

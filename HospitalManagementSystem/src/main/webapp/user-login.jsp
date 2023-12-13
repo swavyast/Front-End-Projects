@@ -30,8 +30,8 @@
 <!-- 						<p class="card-caption">I'll write something about this card
 							in future.</p> -->
 					<div class = "clearfix">
-					<p class="fs-6 text-center mt-5 floatleft"><a class="text-light bg-success p-1 m-1" href="doctor-login.jsp"> Doctor Login</a></p>
-					<p class="fs-6 text-center mt-5 floatright"><a class="text-light bg-success p-1 m-1" href="admin-login.jsp"> Admin Login</a></p>
+					<p class="fs-6 text-center mt-5 floatleft"><a class="text-light bg-secondary p-1 m-1" href="doctor-login.jsp"> Doctor Login</a></p>
+					<p class="fs-6 text-center mt-5 floatright"><a class="text-light bg-secondary p-1 m-1" href="admin-login.jsp"> Admin Login</a></p>
 					</div>
 					</div>
 
