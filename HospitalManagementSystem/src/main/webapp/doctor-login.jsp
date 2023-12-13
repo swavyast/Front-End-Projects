@@ -11,6 +11,12 @@
 <header>
 <%@include file="components/navbar.jsp" %>
 </header>
+
+	<!--=========================== footer =========================== -->
+	
+	<%@include file="components/footer.jsp"%>
+	
+	<!--=========================== footer =========================== -->
 <%@include file="components/allscripts.jsp" %>
 </body>
 </html>

@@ -16,3 +16,25 @@
 	margin-top : 42px;
 	margin-left : 50px;
 }
+
+.card img {
+    border: 1px solid black;
+    border-radius: 0px 10px 10px 0px;
+    width : 200px;
+}
+
+footer div{
+	max-height : 25px;
+}
+
+footer div p{
+	/* display : flex;
+	flex-wrap : nowrap;
+	align-content: center; */
+	margin-top : -5px;
+}
+
+.mediHome{
+	
+	font-style : italic;
+}
