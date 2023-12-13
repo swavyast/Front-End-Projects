@@ -1,0 +1,179 @@
+[{
+  "_id": {
+    "$oid": "6578fdaef23160c3f4d9b429"
+  },
+  "name": "Himanshu",
+  "age": 30,
+  "pass_div": "first"
+},
+{
+  "_id": {
+    "$oid": "65790a5fa604654d2cbeed62"
+  },
+  "name": "Hemant",
+  "age": 32,
+  "email": "hemant@example.com"
+},
+{
+  "_id": {
+    "$oid": "65790a5fa604654d2cbeed63"
+  },
+  "name": "Ramesh",
+  "age": 62,
+  "email": "ramesh@example.com"
+},
+{
+  "_id": {
+    "$oid": "65790a5fa604654d2cbeed64"
+  },
+  "name": "Urmila",
+  "age": 58,
+  "email": "urmila@example.com"
+},
+{
+  "_id": {
+    "$oid": "65790a5fa604654d2cbeed65"
+  },
+  "name": "Dinesh",
+  "age": 54,
+  "email": "dinesh@example.com"
+},
+{
+  "_id": {
+    "$oid": "65790a5fa604654d2cbeed66"
+  },
+  "name": "Nilam",
+  "age": 52,
+  "email": "nilam@example.com"
+},
+{
+  "_id": {
+    "$oid": "6579166da604654d2cbeed67"
+  },
+  "name": "Arun",
+  "dob": {
+    "$date": {
+      "$numberLong": "-135907200000"
+    }
+  },
+  "age": 58,
+  "email": "arun@example.com",
+  "phone": {
+    "$numberLong": "7766998855"
+  },
+  "isWorking": false,
+  "object": null,
+  "courses": [
+    "Course 1",
+    "Course 2"
+  ],
+  "address": {
+    "city": "Ghazipur",
+    "state": "Uttar Pradesh",
+    "pincode": 233001
+  }
+},
+{
+  "_id": {
+    "$oid": "6579166da604654d2cbeed68"
+  },
+  "name": "Gyanti",
+  "dob": {
+    "$date": {
+      "$numberLong": "-190425600000"
+    }
+  },
+  "age": 56,
+  "email": "gyanti@example.com",
+  "phone": {
+    "$numberLong": "8899776655"
+  },
+  "isWorking": false,
+  "object": null,
+  "courses": [
+    "Course 3",
+    "Course 4",
+    "Course 5"
+  ],
+  "address": {
+    "city": "Ghazipur",
+    "state": "Uttar Pradesh",
+    "pincode": 233001
+  }
+},
+{
+  "_id": {
+    "$oid": "6579166da604654d2cbeed69"
+  },
+  "name": "Kanti",
+  "dob": {
+    "$date": {
+      "$numberLong": "-271468800000"
+    }
+  },
+  "age": 54,
+  "email": "kanti@example.com",
+  "phone": {
+    "$numberLong": "6938789548"
+  },
+  "isWorking": false,
+  "object": null,
+  "courses": [
+    "Spiritual Awakening",
+    "Leave It",
+    "I am not going to say anything else"
+  ],
+  "address": {
+    "city": "not available",
+    "state": "not available"
+  }
+},
+{
+  "_id": {
+    "$oid": "6579166da604654d2cbeed6a"
+  },
+  "name": "dummy",
+  "dob": {
+    "$date": "1999-12-31T18:30:00.000Z"
+  },
+  "age": 0,
+  "email": "example@example.com",
+  "phone": {
+    "$numberLong": "9999999999"
+  },
+  "isWorking": false,
+  "object": null,
+  "courses": [
+    "Not Available"
+  ],
+  "address": {
+    "city": "No Name",
+    "state": "no name",
+    "country": "no name",
+    "pincode": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "65792138a604654d2cbeed6c"
+  },
+  "name": "Test",
+  "isRegistered": false,
+  "email": null,
+  "courses": [
+    "Course-1",
+    "Course-2"
+  ],
+  "address": {
+    "city": "Noida",
+    "state": "UP"
+  },
+  "dob": {
+    "$date": "2023-01-01T00:00:00.000Z"
+  }
+}]
+
+
+
+
+

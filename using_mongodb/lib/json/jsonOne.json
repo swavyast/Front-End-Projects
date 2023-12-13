@@ -1,0 +1,75 @@
+   [
+        {
+            "name": "Arun",
+            "dob" : "1965-09-11",
+            "age": 58,
+            "email": "arun@example.com",
+            "phone": 7766998855,
+            "isWorking": false,
+            "object": null,
+            "courses": [
+                "Course 1",
+                "Course 2"
+            ],
+            "address": {
+                "city": "Ghazipur",
+                "state": "Uttar Pradesh",
+                "pincode": 233001
+            }
+        },
+        {
+            "name": "Gyanti",
+            "dob":"20-12-163",
+            "age": 56,
+            "email": "gyanti@example.com",
+            "phone": 8899776655,
+            "isWorking": false,
+            "object": null,
+            "courses": [
+                "Course 3",
+                "Course 4",
+                "Course 5"
+            ],
+            "address": {
+                "city": "Ghazipur",
+                "state": "Uttar Pradesh",
+                "pincode": 233001
+            }
+        },
+        {
+            "name": "Kanti",
+            "dob": "1961-05-26",
+            "age": 54,
+            "email": "kanti@example.com",
+            "phone": 6938789548,
+            "isWorking": false,
+            "object": null,
+            "courses": [
+                "Spiritual Awakening",
+                "Leave It",
+                "I am not going to say anything else"
+            ],
+            "address": {
+                "city": "not available",
+                "state": "not available"
+            }
+        },
+        {
+            "name": "dummy",
+            "dob":"new Date()",
+            "age": 0,
+            "email": "example@example.com",
+            "phone": 9999999999,
+            "isWorking": false,
+            "object": null,
+            "courses": [
+                "Not Available"
+            ],
+            "address": {
+                "city": "No Name",
+                "state": "no name",
+                "country": "no name",
+                "pincode": 0
+            }
+        }
+    ]
