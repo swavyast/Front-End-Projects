@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+a{
+	text-decoration : none;
+}
+
 .floatright{
 	float : right;
 }
@@ -21,6 +25,10 @@
     border: 1px solid black;
     border-radius: 0px 10px 10px 0px;
     width : 200px;
+}
+
+.form-div{
+	max-width : 500px;
 }
 
 footer div{
