@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.floatright{
+	float : right;
+}
+
+.floatleft {
+	float : left;
+}
+
+.card-shadow{
+	box-shadow : 0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+.steth {
+	margin-top : 42px;
+	margin-left : 50px;
+}
