@@ -20,6 +20,13 @@
             <artifactId>mongo-java-driver</artifactId>
             <version>3.12.14</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>10.1.13</version>
+        </dependency>
+
 
     </dependencies>
 
