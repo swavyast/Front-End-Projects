@@ -3,12 +3,20 @@ package com.ml.hms.dao;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.time.LocalDate;
+
+import com.ml.hms.db.DatabaseConfiguration;
 import com.ml.hms.entity.User;
+import com.mysql.cj.PreparedQuery;
+import com.mysql.cj.protocol.Resultset;
 
 public class UserDao {
 
     private Connection con = null;
     private int statusCode;
+    private ResultSet r;
 
     public UserDao(Connection con) {
 	this.con = con;
@@ -49,7 +57,21 @@ public class UserDao {
     
     //Read user
     
-    
+    public User readUserDetails(User u) throws SQLException{
+	
+	String sql = "select * from user where id = "+u.getId()+";";
+	
+	PreparedStatement p = con.prepareStatement(sql);
+	p.execute();
+	r = p.getResultSet();
+	u.setName(r.getString(1));
+	u.setDob(LocalDate.parse(r.getDate("dob").toString()));
+	u.setPhone(r.getString(3));
+	u.setImage(r.getString(6));
+	
+	return (u.getEmail() == r.getString(4) && u.getPassword() == r.getString(5))?u:null;
+	
+    }
     
 
 }
