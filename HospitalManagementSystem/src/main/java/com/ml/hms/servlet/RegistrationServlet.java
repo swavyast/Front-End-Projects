@@ -12,6 +12,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 @SuppressWarnings("serial")
 @WebServlet("/registration")
@@ -19,6 +20,7 @@ public class RegistrationServlet extends HttpServlet {
 
     private String success = null;
     private String problem = null;
+    private HttpSession session;
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -37,12 +39,15 @@ public class RegistrationServlet extends HttpServlet {
 	    boolean flag = udao.createUser(u);
 
 	    if (flag) {
-		success = "Dear " + u.getName() + " You are registered successfully";
-		resp.setContentType(success);
+		success = "Dear " + u.getName() + "<br>You are registered successfully";
+		session = req.getSession();
+		session.setAttribute("response", success);
 	    } else {
 		problem = "Dear user, your registration could not be completed this time\n";
-		problem += "Please, try again after sometimes.";
+		problem += "<br>Please, try again after sometimes.";
 		resp.setContentType(problem);
+		session = req.getSession();
+		session.setAttribute("response", problem);
 	    }
 
 	} catch (Exception e) {

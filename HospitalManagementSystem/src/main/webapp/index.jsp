@@ -1,7 +1,10 @@
+<%@page import="com.ml.hms.servlet.LoginServlet"%>
 <%@page import="com.ml.hms.servlet.RegistrationServlet"%>
 <%@page import="com.ml.hms.db.DatabaseConfiguration"%>
 <%@page import="java.sql.Connection"%>
 <%@page import="jakarta.servlet.http.HttpServlet.*"%>
+<%@page import="jakarta.servlet.http.HttpSession"%>
+<%@page import="java.util.*"%>
 <%-- <%@page import="javax.servlet.ServletConrtext"%> --%>
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -15,18 +18,20 @@
 </head>
 <body>
 
-	<div class = "col-md-6">
-	
-<%-- 	<%
-		Context ctx = new RegistrationServlet().getServletContext();
-		
-	%> --%>
-	
-	</div>
+
 	<!--=========================== header =========================== -->
 
 	<header>
 		<%@include file="components/navbar.jsp"%>
+<div class = "container-fluid text-light bg-success text-center" style="border-top:1px solid white">
+	<span class = "fs-6">
+	<% 
+		Object o = request.getSession().getAttribute("response");
+		String result = o.toString();
+		out.println(result);
+	%>
+	</span>
+	</div>
 	</header>
 
 	<!--=========================== header =========================== -->

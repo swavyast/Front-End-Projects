@@ -59,18 +59,31 @@ public class UserDao {
     
     public User readUserDetails(User u) throws SQLException{
 	
-	String sql = "select * from user where id = "+u.getId()+";";
+	String em = u.getEmail();
+	String ps = u.getPassword();
+	
+	String sql = "select * from user where email = '"+em+"' and password = '"+ps+"';";
 	
 	PreparedStatement p = con.prepareStatement(sql);
-	p.execute();
-	r = p.getResultSet();
-	u.setName(r.getString(1));
-	u.setDob(LocalDate.parse(r.getDate("dob").toString()));
-	u.setPhone(r.getString(3));
-	u.setImage(r.getString(6));
+	r = p.executeQuery();
+	while(r!=null && r.next()) {
 	
-	return (u.getEmail() == r.getString(4) && u.getPassword() == r.getString(5))?u:null;
+	long id = r.getInt(1);
+	String name = r.getString(2);
+	LocalDate dob = LocalDate.parse(r.getDate(3).toString());
+	String ph = r.getString(4);
+	String eml = r.getString(5);
+	String pas = r.getString(6);
+	String im = r.getString(7);
+	u.setName(name);
+	u.setDob(dob);
+	u.setPhone(ph);
+	u.setEmail(eml);
+	u.setPassword(pas);
+	u.setImage(im);
+	}
 	
+	return (u.getId()>0)?u:null;
     }
     
 
