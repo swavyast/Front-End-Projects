@@ -1,3 +1,9 @@
+<%@page import="com.ml.hms.servlet.RegistrationServlet"%>
+<%@page import="com.ml.hms.db.DatabaseConfiguration"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="jakarta.servlet.http.HttpServlet.*"%>
+<%-- <%@page import="javax.servlet.ServletConrtext"%> --%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -9,6 +15,14 @@
 </head>
 <body>
 
+	<div class = "col-md-6">
+	
+<%-- 	<%
+		Context ctx = new RegistrationServlet().getServletContext();
+		
+	%> --%>
+	
+	</div>
 	<!--=========================== header =========================== -->
 
 	<header>
